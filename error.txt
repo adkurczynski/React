@@ -1,0 +1,35 @@
+ Child mini-css-extract-plugin node_modules/css-loader/dist/cjs.js??ref--5-1!node_modules/sass-loader/dist/cjs.js!src/components/Search/Search.scss:
+           Entrypoint mini-css-extract-plugin = *
+              2 modules
+       Child mini-css-extract-plugin node_modules/css-loader/dist/cjs.js??ref--5-1!node_modules/sass-loader/dist/cjs.js!src/styles/global.scss:
+           Entrypoint mini-css-extract-plugin = *
+           [0] ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/sass-loader/dist/cjs.js!./src/styles/global.scss 509 bytes {0} [built]
+               + 1 hidden module
+       Child mini-css-extract-plugin node_modules/css-loader/dist/cjs.js??ref--5-1!node_modules/sass-loader/dist/cjs.js!src/styles/normalize.scss:
+           Entrypoint mini-css-extract-plugin = *
+           [0] ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/sass-loader/dist/cjs.js!./src/styles/normalize.scss 1.98 KiB {0} [built]
+               + 1 hidden module
+npm ERR! code ELIFECYCLE
+npm ERR! errno 2
+npm ERR! react-to-do@1.0.0 build: `webpack --mode production`
+npm ERR! Exit status 2
+npm ERR! 
+npm ERR! Failed at the react-to-do@1.0.0 build script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /tmp/npmcache.qRKgj/_logs/2019-11-03T20_14_43_104Z-debug.log
+-----> Build failed
+       
+       We're sorry this build is failing! You can troubleshoot common issues here:
+       https://devcenter.heroku.com/articles/troubleshooting-node-deploys
+       
+       Some possible problems:
+       
+       - Node version not specified in package.json
+         https://devcenter.heroku.com/articles/nodejs-support#specifying-a-node-js-version
+       
+       Love,
+       Heroku
+       
+ !     Push rejected, failed to compile Node.js app.
+ !     Push failed
