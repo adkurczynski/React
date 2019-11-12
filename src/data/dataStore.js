@@ -6,6 +6,16 @@ export const settings = {
     buttonCancel: 'Cancel',
     defaultText: 'Add new item',
   },
+  info: {
+    title: 'Info',
+    content: 'Duis aute irure dolor inreprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+    image: 'https://i.postimg.cc/GtrsD3gk/green-and-red-abstract-painting-1070534.jpg',
+  },
+  faq: {
+    title: 'FAQ',
+    content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+    image: 'https://i.postimg.cc/V6wNGG9w/abstract-painting-1724888-1.jpg',
+  },
   search: {
     defaultText: 'Search...',
     icon: 'search',
@@ -78,6 +88,18 @@ const lists = [
     title: 'Things to do <sup>soon!</sup>',
     description: 'Interesting things I want to check out!',
     image: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
+  },
+  {
+    id: 'list-2',
+    title: 'Be creative!',
+    description: 'Things i want to achieve',
+    image: 'https://i.postimg.cc/XqSBBkhk/close-up-of-hand-over-white-background-316465.jpg',
+  },
+  {
+    id: 'list-3',
+    title: 'Most interesting cities',
+    description: 'Places worth visiting',
+    image: 'https://i.postimg.cc/pLYm3vgR/brown-concrete-building-painting-1261172.jpg',
   },
 ];
 
